@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@300&family=Bebas+Neue&family=Chivo:wght@900&family=Inter:wght@100;300;600&family=Montserrat:wght@100&family=Nunito:ital,wght@0,400;0,800;0,900;1,700&family=Palette+Mosaic&family=Poppins:wght@100;200;300;400;500&family=Roboto:wght@100;300;400&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.classMain {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow-x: scroll;
+  gap: 20px;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+@media only screen and (min-width: 1025px) {
+  .classMain {
+    max-width: 79%;
+    flex-wrap: wrap;
+
+    overflow: hidden;
+    height: auto;
+    margin-left: 9rem;
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 1350px) {
+  .classMain {
+    max-width: 60%;
+    flex-wrap: wrap;
+    padding-left: 0;
+    overflow: hidden;
+    height: auto;
+    margin-left: 6rem;
+    padding-right: 0;
+  }
+}
+
+@media only screen and (min-width: 1700px) {
+  .classMain {
+    max-width: 59%;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .classMain {
+    max-width: 53%;
+  }
+}

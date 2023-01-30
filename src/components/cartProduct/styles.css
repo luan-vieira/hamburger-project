@@ -1,0 +1,77 @@
+.containerCartProduct {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 87%;
+  gap: 10px;
+  padding: 15px 10px 0px 10px;
+}
+
+.containerImageCart {
+  width: 85px;
+  height: 85px;
+  background: #e0e0e0;
+  border-radius: 5px;
+}
+
+.containerImageCart img {
+  width: 85px;
+  height: 85px;
+}
+
+.containerInfoCart {
+  height: 85px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nameCart {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+  width: 85px;
+  color: #333333;
+}
+.categoryCart {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #828282;
+}
+
+.priceCart {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+
+  color: #828282;
+}
+
+.buttonRemove {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  border: none;
+  background: #f5f5f5;
+  color: #bdbdbd;
+  cursor: pointer;
+}
+
+.multiplicItemCart {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 20px;
+  padding-right: 10px;
+  font-weight: 500;
+  color: #27ae60;
+}
+
+@media only screen and (min-width: 1025px) {
+  .containerCartProduct {
+    padding: 10px 0px 0px 10px;
+    width: 75%;
+  }
+}
